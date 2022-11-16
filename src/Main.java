@@ -36,10 +36,20 @@ public class Main {
             System.out.println( year +  " не является високосным");
         }
 
+       //  Задание 4
+        System.out.println(" Задание 4 ");
 
 
+         int deliveryDistance = 95;
+         int deliveryDays = 1;
 
-
+         if ( deliveryDistance > 20) {
+             deliveryDays++;
+         }
+         if ( deliveryDistance > 60) {
+           deliveryDays++;
+       }
+        System.out.println( " Потребуется " + deliveryDays + " дней" );
 
 
 
