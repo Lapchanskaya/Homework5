@@ -51,6 +51,36 @@ public class Main {
        }
         System.out.println( " Потребуется " + deliveryDays + " дней" );
 
+        //  Задание 5
+        System.out.println(" Задание 5 ");
+
+        int monthNumber = 14;
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println( " Зимний сезон ");
+            break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println( " Весенний сезон ");
+            break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println( " Летний сезон ");
+            break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println( " Осенний сезон ");
+            break;
+            default:
+                System.out.println( " Такого дня не существует ");
+
+        }
+
 
 
 
