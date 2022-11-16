@@ -26,7 +26,15 @@ public class Main {
             System.out.println( " Установите облегченную версию приложения для Android по ссылке");
         }
 
+        //  Задание 3
+        System.out.println(" Задание 3 ");
+        int year = 2018;
 
+        if (year % 4 == 0 && year % 100 != 0 ||  year % 400 == 0  ) {
+            System.out.println( year +  " является високосным");
+        } else {
+            System.out.println( year +  " не является високосным");
+        }
 
 
 
